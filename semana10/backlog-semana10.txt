@@ -1,0 +1,13 @@
+HISTORIAS DE USUARIO (Ordenadas de mayor a menor prioridad):
+
+1. Prioridad Alta:
+Como ciudadano afectado, quiero registrar un reporte de falla en la vía pública con una descripción breve para dejar evidencia formal del caso ante la comunidad.
+
+2. Prioridad Media-Alta:
+Como coordinador del comité técnico, quiero recibir una notificación automática en Telegram cada vez que se registre un nuevo reporte para poder asignarlo rápidamente.
+
+3. Prioridad Media:
+Como veedor ciudadano, quiero consultar un listado con el estado de todos los reportes activos para poder hacer seguimiento a las respuestas de la administración local.
+
+4. Prioridad Baja:
+Como usuario del sistema, quiero filtrar los reportes por categoría o sector de la ciudad para encontrar rápidamente incidencias similares en mi barrio.

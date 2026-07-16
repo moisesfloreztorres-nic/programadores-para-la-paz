@@ -1,0 +1,11 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+- Historia 1: Permitir al ciudadano registrar un reporte de falla en la vía pública con descripción breve.
+- Historia 2: Configurar la notificación automática en Telegram cuando se registre un reporte nuevo.
+
+2. ¿Por qué son las más importantes?
+Porque constituyen el núcleo de la solución (el "Mínimo Viable"). Sin la capacidad de registrar reportes no existe información que procesar, y sin la notificación inmediata se pierde la agilidad para que el equipo coordinador se entere y actúe. Estas dos tareas habilitan el canal básico de comunicación entre el ciudadano y la veeduría.
+
+3. Definición de "Terminado" (Criterios de aceptación):
+- El formulario de registro de reporte funciona correctamente sin caerse y almacena los datos en la base de datos de prueba.
+- La notificación llega al canal o chat de Telegram configurado en menos de 5 segundos tras el registro.
+- El código de ambos módulos ha sido probado localmente, no genera errores en consola y quedó registrado/subido en el repositorio de Git.
