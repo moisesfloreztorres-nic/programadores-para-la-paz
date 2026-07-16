@@ -1,0 +1,26 @@
+MODELO DE DATOS BÁSICO
+
+Entidad: Causa
+
+Campos principales:
+- id (Entero, Clave Primaria, Autoincremental)
+- titulo (Texto, Obligatorio)
+- descripcion (Texto, Obligatorio)
+- categoria (Texto)
+- fecha_creacion (Fecha/Hora)
+- creador_id (Entero, Clave Foránea)
+
+Propósito:
+Almacenar de forma organizada las iniciativas, problemáticas o propuestas que la comunidad propone y expone públicamente en la plataforma para recibir respaldo vecinal.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id (Entero, Clave Primaria, Autoincremental)
+- causa_id (Entero, Clave Foránea)
+- usuario_id (Entero, Clave Foránea)
+- fecha_apoyo (Fecha/Hora)
+
+Propósito:
+Registrar de manera unívoca y segura cada respaldo que un usuario autenticado otorga a una causa específica, evitando duplicados y permitiendo contabilizar la participación de forma transparente.

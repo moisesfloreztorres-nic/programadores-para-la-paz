@@ -1,0 +1,5 @@
+El "login" o inicio de sesión es el proceso de verificación mediante el cual una aplicación comprueba la identidad de un usuario a través de credenciales únicas (como correo y contraseña cifrada) antes de concederle acceso al sistema.
+
+En una plataforma comunitaria, ciertas rutas deben estar protegidas de forma obligatoria debido a que controlan acciones administrativas críticas (como editar propuestas, borrar reportes o gestionar usuarios) y contienen información de control interno que no debe ser manipulada por terceros o visitantes anónimos.
+
+Bajo ninguna circunstancia deben exponerse públicamente datos sensibles como contraseñas en texto plano, números de documentos de identidad, direcciones residenciales de líderes sociales, registros de contacto privados, tokens de infraestructura, ni claves de interfaces de programación de aplicaciones (APIs), protegiendo así la integridad de la comunidad ante posibles represalias o filtraciones indebidas.

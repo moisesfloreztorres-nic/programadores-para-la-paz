@@ -1,0 +1,13 @@
+La interfaz de usuario de la plataforma se estructurará de forma clara, accesible y directa con los siguientes elementos:
+
+1. Formulario para crear una causa:
+Un panel sencillo de entrada de texto donde un líder comunitario autenticado puede escribir un título conciso, redactar una descripción detallada de la problemática y seleccionar una fecha de inicio de la propuesta.
+
+2. Vista de causas disponibles:
+Una sección principal organizada en tarjetas visuales (cards) donde cualquier visitante puede leer los títulos y resúmenes de las iniciativas activas de su barrio de manera ordenada.
+
+3. Botón para apoyar una causa:
+Cada tarjeta de causa incorporará un botón interactivo y visible con la etiqueta "Apoyar Causa", el cual se habilitará únicamente cuando el usuario haya iniciado sesión.
+
+4. Contador de apoyos:
+Al lado de cada botón, una etiqueta dinámica mostrará en tiempo real el número de respaldos acumulados (por ejemplo: "34 personas apoyan esta causa"), reflejando el impacto de la iniciativa sin revelar jamás quiénes son los votantes individuales para resguardar la privacidad de los vecinos participantes.
