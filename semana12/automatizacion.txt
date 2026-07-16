@@ -1,0 +1,16 @@
+FLUJO DE AUTOMATIZACIÓN (n8n / Telegram)
+
+1. Evento que activa la automatización:
+El flujo se dispara automáticamente en el instante en que el sistema detecta que se ha generado con éxito el documento PDF formal de una causa (Petición) en el servidor.
+
+2. Mensaje que se envía a Telegram:
+Se despacha un mensaje de notificación automática al canal público de la junta comunitaria:
+"📢 ¡Petición formal generada con éxito!
+La causa '[Título_de_la_Causa]' ha recolectado los respaldos necesarios del barrio y su documento oficial de petición en PDF ya se encuentra listo para descarga y radicación. 
+¡Gracias a todos por participar activamente!"
+
+3. Información que NO debe enviarse por seguridad:
+Para salvaguardar la privacidad de la base social y evitar amenazas o represalias, queda estrictamente prohibido enviar en el mensaje automatizado:
+- El listado de nombres, firmas, documentos de identidad o correos de los ciudadanos que apoyaron la causa.
+- Direcciones residenciales de los participantes o del creador de la iniciativa.
+- Credenciales, rutas internas del servidor o tokens de configuración de la plataforma.

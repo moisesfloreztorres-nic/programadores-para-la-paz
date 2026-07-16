@@ -1,0 +1,11 @@
+FLUJO DEL SISTEMA: PETICIÓN EN 3 CLICS
+
+1. Registro de la Causa: Un líder comunitario o ciudadano autenticado ingresa a la plataforma y registra una causa o problemática del territorio (por ejemplo, "Reparación del alumbrado del parque principal") completando un formulario con título y descripción.
+
+2. Almacenamiento e Indexación: El backend de la aplicación Node.js recibe los datos del formulario, procesa la solicitud y almacena de forma segura la nueva causa dentro de la base de datos relacional.
+
+3. Recolección de Apoyos (Clic de Respaldo): Los miembros de la comunidad que visitan la plataforma leen la propuesta y, tras iniciar sesión de forma segura, hacen clic en el botón "Apoyar Causa" para registrar su respaldo de forma individual.
+
+4. Monitoreo y Trazabilidad: El sistema actualiza en tiempo real el contador de apoyos de la base de datos y, simultáneamente, genera un log o registro de actividad interno para garantizar la transparencia del proceso sin revelar datos sensibles públicamente.
+
+5. Generación del Documento Formal (PDF): Al alcanzarse un número mínimo de apoyos o cuando el creador lo decida, el sistema procesa los datos y compila de manera automática un documento formal en formato PDF (Petición) que consolida el título, la descripción de la causa, la fecha y el total de apoyos ciudadanos acumulados, quedando listo para ser descargado y radicado físicamente ante las autoridades locales correspondientes.
